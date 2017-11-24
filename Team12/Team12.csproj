@@ -106,6 +106,10 @@
     <Content Include="AcceptOrDeny.aspx" />
     <Content Include="ApproveRequisitions.aspx" />
     <Content Include="DenyRequisitions.aspx" />
+    <Content Include="frm_delivery.aspx" />
+    <Content Include="frm_deliveryInfo.aspx" />
+    <Content Include="frm_deliveryOrderDetails.aspx" />
+    <Content Include="frm_enquery.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -149,7 +153,13 @@
     <Content Include="Resources\images\agsquare_%402X.png" />
     <Content Include="Resources\images\banner.jpg" />
     <Content Include="Resources\images\banner1.jpg" />
+    <Content Include="Resources\images\Best-Quality.png" />
+    <Content Include="Resources\images\correct.png" />
+    <Content Include="Resources\images\delivery.png" />
+    <Content Include="Resources\images\DeliveryImg.png" />
+    <Content Include="Resources\images\EnquiryButton.png" />
     <Content Include="Resources\images\logo.png" />
+    <Content Include="Resources\images\Low-Quality.jpg" />
     <Content Include="Resources\images\portfolio\item01.jpg" />
     <Content Include="Resources\images\portfolio\item02.jpg" />
     <Content Include="Resources\images\portfolio\item03.jpg" />
@@ -159,7 +169,9 @@
     <Content Include="Resources\images\products\1.jpg" />
     <Content Include="Resources\images\products\2.jpg" />
     <Content Include="Resources\images\products\3.jpg" />
+    <Content Include="Resources\images\save.ico" />
     <Content Include="Resources\images\triangular_%402X.png" />
+    <Content Include="Resources\images\wrong.png" />
     <Content Include="Resources\scripts\bootstrap.js" />
     <Content Include="Resources\scripts\bootstrap.min.js" />
     <Content Include="Resources\scripts\contact.js" />
@@ -204,6 +216,34 @@
     </Compile>
     <Compile Include="DenyRequisitions.aspx.designer.cs">
       <DependentUpon>DenyRequisitions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_delivery.aspx.cs">
+      <DependentUpon>frm_delivery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_delivery.aspx.designer.cs">
+      <DependentUpon>frm_delivery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_deliveryInfo.aspx.cs">
+      <DependentUpon>frm_deliveryInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_deliveryInfo.aspx.designer.cs">
+      <DependentUpon>frm_deliveryInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_deliveryOrderDetails.aspx.cs">
+      <DependentUpon>frm_deliveryOrderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_deliveryOrderDetails.aspx.designer.cs">
+      <DependentUpon>frm_deliveryOrderDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_enquery.aspx.cs">
+      <DependentUpon>frm_enquery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_enquery.aspx.designer.cs">
+      <DependentUpon>frm_enquery.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
