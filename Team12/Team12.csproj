@@ -43,6 +43,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>C:\Users\User\Videos\itextsharp-all-5.5.10\itextsharp-dll-core\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>C:\Users\User\Videos\itextsharp-all-5.5.10\itextsharp-dll-pdfa\itextsharp.pdfa.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -104,7 +110,10 @@
   <ItemGroup>
     <Content Include="Accepted Requisitions.aspx" />
     <Content Include="AcceptOrDeny.aspx" />
+    <Content Include="Add Requisition.aspx" />
+    <Content Include="AddItems.aspx" />
     <Content Include="ApproveRequisitions.aspx" />
+    <Content Include="AssignedEmployee.aspx" />
     <Content Include="DenyRequisitions.aspx" />
     <Content Include="frm_delivery.aspx" />
     <Content Include="frm_deliveryInfo.aspx" />
@@ -203,12 +212,33 @@
     <Compile Include="AcceptOrDeny.aspx.designer.cs">
       <DependentUpon>AcceptOrDeny.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Add Requisition.aspx.cs">
+      <DependentUpon>Add Requisition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add Requisition.aspx.designer.cs">
+      <DependentUpon>Add Requisition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddItems.aspx.cs">
+      <DependentUpon>AddItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddItems.aspx.designer.cs">
+      <DependentUpon>AddItems.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ApproveRequisitions.aspx.cs">
       <DependentUpon>ApproveRequisitions.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ApproveRequisitions.aspx.designer.cs">
       <DependentUpon>ApproveRequisitions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssignedEmployee.aspx.cs">
+      <DependentUpon>AssignedEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssignedEmployee.aspx.designer.cs">
+      <DependentUpon>AssignedEmployee.aspx</DependentUpon>
     </Compile>
     <Compile Include="DenyRequisitions.aspx.cs">
       <DependentUpon>DenyRequisitions.aspx</DependentUpon>
